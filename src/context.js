@@ -56,11 +56,11 @@ class StoreProvider extends Component {
         })
     }
     closeModal = () => {
-        console.log("closing");
+        
         this.setState(()=>{
             return {modalOpen: false}
         })
-        console.log(this.state);
+       ;
     }
 
     add = (id) => {
