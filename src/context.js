@@ -112,10 +112,10 @@ class StoreProvider extends Component {
     }
 
     totalize = () => {
-        console.log("totalizing");
+       
         var total=0;
         this.state.cart.map(i => (total+=i.total))
-        console.log(total);
+       
         this.setState(()=>{
             return {
                 cartTotal: total

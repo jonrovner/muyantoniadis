@@ -6,7 +6,7 @@ export default class PayButton extends Component {
     
     render() {
       const total = this.props.total
-        console.log(PayPalButton)
+        
     return (
         <PayPalButton
         amount={total}

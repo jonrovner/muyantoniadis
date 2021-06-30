@@ -67,9 +67,14 @@ export default class Cart extends Component {
                     </React.Fragment>)}
                  else{
                         return(
-                                    <React.Fragment>
-                                    <h3>Your cart is empty</h3>
-                                    </React.Fragment>
+                                <React.Fragment>
+                                <h3>Your cart is empty</h3>
+                                <Link to="/products">
+                                <div className="d-flex align-items-center justify-content-center mt-5 ">
+                                    <button className="mybtn mb-5">ver catálogo</button>
+                                </div>
+                                </Link>
+                                </React.Fragment>
                                 ) 
                 
 
